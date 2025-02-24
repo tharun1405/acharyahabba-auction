@@ -33,7 +33,7 @@ const Screen = ({ data }) => {
             <div className="name">{data.name}</div>
             <div className={`${data.type}`}>{data.type}</div>
             <div className="aplid">
-              APL9-{data.aplID.toString().padStart(4, "0")}
+              APL10-{data.aplID.toString().padStart(4, "0")}
             </div>
             <div>
               <span className="college">College:</span> {data.college}
