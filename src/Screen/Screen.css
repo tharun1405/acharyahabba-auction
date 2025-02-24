@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.screen{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px 0;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 10px grey;
+    padding-top: 0;
+    font-family: 'Mulish', sans-serif;
+    overflow: hidden;
+}
+
+.screen .category{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.screen img{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    border: 2px solid rgb(114, 114, 114);
+}
+
+.right div{
+    font-size: large;
+    margin-top: 5px;
+}
+
+.name{
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+}
+
+.aplid{
+    font-weight: bolder;
+    background-color: rgb(255, 239, 62);
+    width: fit-content;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.Faculty{
+    margin-top: 10px !important;
+    background-color: #ECAC76;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px !important;
+    text-transform: uppercase;
+}
+
+.Student{
+    text-transform: uppercase;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    background-color: #77c3ab;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.photo-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px !important;
+}
+
+.go-back button{
+    margin-top: 20px;
+    font-size: medium;
+    background-color: #2754ba;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.go-back button:hover{
+    cursor: pointer;
+    background-color: #20469d;
+}
+
+.college{
+    font-weight: bolder;
+}
